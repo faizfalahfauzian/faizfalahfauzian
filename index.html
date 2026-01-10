@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Noto+Serif:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/style.css">
+
     <script defer>
         document.addEventListener("DOMContentLoaded", () => {
             const observer = new IntersectionObserver((entries, observer) => {
@@ -23,13 +24,16 @@
                     }
                 });
             }, { threshold: 0.2 });
+
             document.querySelectorAll(
                 '.slide-in-left, .slide-in-right, .slide-in-top, .slide-in-bottom'
             ).forEach(el => observer.observe(el));
         });
     </script>
 </head>
+
 <body>
+
 <header>
     <a href="#home">
         <img src="../Assets/images/border.png" alt="decorative border" class="border slide-in-left">
@@ -63,7 +67,9 @@
         </ul>
     </nav>
 </header>
+
 <main id="home">
+
     <section class="gridcont">
         <div class="intro slide-in-left">
             <p>
@@ -73,9 +79,11 @@
                 projects and aiming to study in Japan.
             </p>
         </div>
+
         <div class="avatar slide-in-top">
             <img src="../Assets/images/Gua.JPG" alt="Portrait of Faiz Falah Fauzian" loading="lazy">
         </div>
+
         <div class="title">
             <h1 class="slide-in-left">Selected Projects</h1>
         </div>
@@ -85,6 +93,7 @@
             <div class="screenshot slide-in-left">
                 <img src="../Assets/images/screenshot.png" alt="Project screenshot" loading="lazy">
             </div>
+
             <div class="deskription slide-in-right">
                 <p>
                     <strong>Birthday Invitation Website</strong><br><br>
@@ -113,9 +122,11 @@
             importantly — I love it. For me, this is what “cool” looks like.
         </p>
     </section>
+
 </main>
 <footer>
     <p id="contact">Contacts:</p>
+
     <ul class="nav justify-content-center">
         <li class="nav-item">
             <a class="nav-link" href="https://wa.me/+6281226777739" target="_blank" aria-label="WhatsApp">
@@ -138,6 +149,7 @@
         Open to discussions, collaboration, and learning together.
         Feel free to reach out.
     </p>
+
     <p>© 2025 Faiz Falah Fauzian</p>
     <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
 </footer>
