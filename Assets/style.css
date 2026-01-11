@@ -159,13 +159,8 @@ p {
     border: 1px solid #213555; 
 }
 
-.logo-indonesia {
-  animation: float 4s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+section {
+  margin-bottom: 0;
 }
 
 .gridcont {
@@ -353,6 +348,7 @@ footer {
         padding: 3rem;
         max-width: 80%;
         border-radius: 4rem;
+        padding-top: 0;
     }
 
     footer {
@@ -407,4 +403,5 @@ footer {
         margin: 0.5rem 0;
     }
 }
+
 
